@@ -28,7 +28,7 @@
 | 2 | [年化波动率](day-02-annualized-volatility.md) | 日频标准差、样本口径与年化因子 | 年化波动函数 | 已完成 |
 | 3 | [夏普比率](day-03-sharpe-ratio.md) | 无风险利率、超额收益和频率一致性 | 夏普比率函数 | 已完成 |
 | 4 | [最大回撤](day-04-maximum-drawdown.md) | 历史高点、回撤序列和峰谷修复区间 | 最大回撤函数 | 已完成 |
-| 5 | Calmar 与超额收益 | Calmar、基准收益、跟踪表现 | 相对绩效表 | 待学习 |
+| 5 | [Calmar 与超额收益](day-05-calmar-excess-return.md) | Calmar、基准收益、跟踪表现 | 相对绩效表 | 已完成 |
 | 6 | 胜率与盈亏比 | 交易级和周期级指标差异 | 胜率与盈亏比函数 | 待学习 |
 | 7 | 统一模块 | 统一输入输出、测试和示例 | 绩效评价模块 | 待学习 |
 
@@ -39,7 +39,7 @@
 \[
 Sharpe
 =
-\frac{R_p-R_f}{\sigma_p}
+rac{R_p-R_f}{\sigma_p}
 \]
 
 最大回撤：
@@ -48,8 +48,8 @@ Sharpe
 MDD
 =
 \min_t\left(
-\frac{V_t-\max_{s\le t}V_s}{\max_{s\le t}V_s}
-\right)
+rac{V_t-\max_{s\le t}V_s}{\max_{s\le t}V_s}
+ight)
 \]
 
 ## 检查清单
